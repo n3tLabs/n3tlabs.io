@@ -1,0 +1,17 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "n3tLabs"
+theme = "grayscale"
+#googleAnalytics = ""
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    # Provide some metadata for search and indexing services
+    description = "A port of the Grayscale theme to Hugo"
+
+[Author]
+    name = "n3tlabs"
+    email = "charris@protonmail.ch"
+
+[Socal]
+    github = "https://github.com/camharris"
