@@ -1,4 +1,4 @@
-baseURL = "http://n3tlabs.github.io/"
+baseURL = "http://n3tlabs.io/"
 languageCode = "en-us"
 title = "n3tLabs"
 theme = "hugo-hero-theme"
@@ -19,15 +19,15 @@ summaryLength = "60"
         weight = 1
 [[menu.main]]
         name="About"
-        url="/#about"
+        url="#about"
         weight = 2
 
 [[menu.main]]
         name="Services"
-        url="/#services"
+        url="#services"
         weight = 3
 
 [[menu.main]]
         name="Contact"
-        url="/#contact"
+        url="#contact"
         weight = 4
