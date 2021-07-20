@@ -5427,6 +5427,10 @@ ol {
   padding: 0;
   list-style: none; }
 
+.link-reset a {
+  color: inherit;
+  text-decoration: underline; }
+
 .page {
   display: flex;
   min-height: 100vh;
@@ -5450,6 +5454,8 @@ ol {
     position: absolute;
     z-index: 100;
     width: 100%; }
+  .header.header-to-fixed {
+    position: fixed !important; }
 
 .footer {
   background: #43454d;
