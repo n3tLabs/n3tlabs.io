@@ -1,17 +1,33 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "n3tLabs"
-theme = "grayscale"
+theme = "hugo-hero-theme"
 #googleAnalytics = ""
 disableKinds = ["taxonomy", "taxonomyTerm"]
+summaryLength = "60"
 
-[params]
-    # Provide some metadata for search and indexing services
-    description = "A port of the Grayscale theme to Hugo"
+[params.homepage_meta_tags]
+   meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+   meta_og_title = "Hugo Hero Theme"
+   meta_og_type = "website"
+   meta_og_url = "https://hugo-hero.netlify.app"
+   meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
 
-[Author]
-    name = "n3tlabs"
-    email = "charris@protonmail.ch"
+[[menu.main]]
+        name="Home"
+        url="/"
+        weight = 1
+[[menu.main]]
+        name="About"
+        url="/#about"
+        weight = 2
 
-[Socal]
-    github = "https://github.com/camharris"
+[[menu.main]]
+        name="Services"
+        url="/#services"
+        weight = 3
+
+[[menu.main]]
+        name="Contact"
+        url="/#contact"
+        weight = 4
