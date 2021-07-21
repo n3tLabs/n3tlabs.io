@@ -7,7 +7,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 summaryLength = "60"
 
 [params]
-favicon = "/images/n3tlabs-logo-mobile-brandmark-design.png"
+favicon = "/favicon.ico"
 
 [params.homepage_meta_tags]
    meta_description = "N3tLabs Chainlink Data Provider"
