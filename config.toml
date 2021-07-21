@@ -1,4 +1,4 @@
-baseURL = "http://n3tlabs.io/"
+baseURL = "https://n3tlabs.io/"
 languageCode = "en-us"
 title = "N3tLabs"
 theme = "hugo-hero-theme"
