@@ -52,7 +52,7 @@ body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.6;
   color: #212529;
   text-align: left;
@@ -937,7 +937,7 @@ hr {
 small,
 .small {
   font-size: 80%;
-  font-weight: 400; }
+  font-weight: 600; }
 
 mark,
 .mark {
@@ -5268,7 +5268,7 @@ button.bg-dark:focus {
   font-weight: 300 !important; }
 
 .font-weight-normal {
-  font-weight: 400 !important; }
+  font-weight: 600 !important; }
 
 .font-weight-bold {
   font-weight: 700 !important; }
@@ -5574,7 +5574,7 @@ ol {
   @media (min-width: 576px) {
     .logo {
       display: block;
-      width: 120px; } }
+      width: 150px; } }
   .logo img {
     width: 100%;
     height: auto; }

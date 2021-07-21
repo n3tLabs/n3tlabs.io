@@ -9,6 +9,7 @@ function toggleModal() {
     body.classList.toggle('lock-scroll')
 }
 
+
 menuTrigger.onclick = function() {
     toggleModal()
     header.classList.add('header-to-fixed')

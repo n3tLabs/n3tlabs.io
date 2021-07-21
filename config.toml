@@ -1,6 +1,6 @@
-baseURL = "http://n3tlabs.io/"
+baseURL = "/"
 languageCode = "en-us"
-title = "n3tLabs"
+title = "N3tLabs"
 theme = "hugo-hero-theme"
 #googleAnalytics = ""
 disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -10,8 +10,8 @@ summaryLength = "60"
 favicon = "/images/n3tlabs-logo-mobile-brandmark-design.png"
 
 [params.homepage_meta_tags]
-   meta_description = "n3tLabs Chainlink Data Provider"
-   meta_og_title = "n3tLabs"
+   meta_description = "N3tLabs Chainlink Data Provider"
+   meta_og_title = "N3tLabs"
    meta_og_type = "website"
    meta_og_url = "https://n3tlabs.github.io"
    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
@@ -22,15 +22,15 @@ favicon = "/images/n3tlabs-logo-mobile-brandmark-design.png"
         weight = 1
 [[menu.main]]
         name="About"
-        url="#about"
+        url="/#about"
         weight = 2
 
 [[menu.main]]
         name="Services"
-        url="#services"
+        url="/#services"
         weight = 3
 
 [[menu.main]]
         name="Contact"
-        url="#contact"
+        url="/contact"
         weight = 4
