@@ -6,6 +6,9 @@ theme = "hugo-hero-theme"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 summaryLength = "60"
 
+[params]
+favicon = "/images/n3tlabs-logo-mobile-brandmark-design.png"
+
 [params.homepage_meta_tags]
    meta_description = "N3tLabs Chainlink Data Provider"
    meta_og_title = "N3tLabs"
