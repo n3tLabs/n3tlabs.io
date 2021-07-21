@@ -7,3 +7,7 @@ menuTrigger.onclick = function() {
     menuTrigger.classList.toggle('is-active')
     body.classList.toggle('lock-scroll')
 }
+
+menuContainer.onclick = function(){
+    menuTrigger.classList.toggle('close');
+}

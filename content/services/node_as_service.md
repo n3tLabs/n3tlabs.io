@@ -7,4 +7,7 @@ weight: 3
 heroHeading: 'Node as a Service'
 heroSubHeading: ''
 ---
-Run your own node with on our managed infrastructure 
+Interested in easily deploying and running you own Chainlink node without needing developer experience? 
+
+We can deploy managed nodes to the network of your choice. We manage the infrastructure, you manage the node configuration from the easily to use UI.
+For more information on managed nodes [contact us](/contact)

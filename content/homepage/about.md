@@ -1,7 +1,8 @@
 ---
 title: 'What is n3tLabs?'
 weight: 1
-background: 'images/kevin-bhagat-461952-unsplash.jpg'
+# background: 'images/kevin-bhagat-461952-unsplash.jpg'
+background: 'images/futuristic-world-map-bg.png'
 # button: 'Our Work'
 # buttonLink: 'work'
 ---
