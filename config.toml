@@ -10,11 +10,11 @@ summaryLength = "60"
 favicon = "/favicon.ico"
 
 [params.homepage_meta_tags]
-   meta_description = "N3tLabs Chainlink Data Provider"
+   meta_description = "N3tLabs - A Chainlink Data Provider"
    meta_og_title = "N3tLabs"
    meta_og_type = "website"
-   meta_og_url = "https://n3tlabs.github.io"
-   meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+   meta_og_url = "https://n3tlabs.io"
+   meta_og_image = "https://n3tlabs.io/images/site_tn.png" 
 
 [[menu.main]]
         name="Home"
