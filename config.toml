@@ -3,34 +3,25 @@ languageCode = "en-us"
 title = "N3tLabs"
 theme = "hugo-hero-theme"
 #googleAnalytics = ""
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 summaryLength = "60"
 
 [params]
-favicon = "/favicon.ico"
+favicon = "/images/n3tlabs-logo.png"
 
 [params.homepage_meta_tags]
-   meta_description = "N3tLabs - A Chainlink Data Provider"
+   meta_description = "N3tLabs - Private infrastructure for experimental crypto & AI systems"
    meta_og_title = "N3tLabs"
    meta_og_type = "website"
    meta_og_url = "https://n3tlabs.io"
-   meta_og_image = "https://n3tlabs.io/images/site_tn.png" 
+   meta_og_image = "https://n3tlabs.io/images/n3tlabs-logo.png" 
 
 [[menu.main]]
         name="Home"
         url="/"
         weight = 1
+
 [[menu.main]]
-        name="About"
-        url="/#about"
+        name="Lab"
+        url="/lab"
         weight = 2
-
-[[menu.main]]
-        name="Services"
-        url="/#services"
-        weight = 3
-
-[[menu.main]]
-        name="Contact"
-        url="/contact"
-        weight = 4

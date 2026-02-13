@@ -1,0 +1,24 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end}}
+
+{{ define "main" }}
+<div class="container pt-8 pb-8 pt-md-14 pb-md-14">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      <article>
+        <header class="mb-4">
+          <h1 class="mb-2">{{ .Title }}</h1>
+          <p style="font-size: 0.9rem; color: #999;">
+            {{ .Date.Format "January 2, 2006" }}
+          </p>
+        </header>
+        <div class="content" style="line-height: 1.8; color: #333;">
+          {{ .Content }}
+        </div>
+        <footer class="mt-5 pt-4" style="border-top: 1px solid #eee;">
+          <p><a href="/lab" style="color: #0066cc; text-decoration: none;">← Back to Lab</a></p>
+        </footer>
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

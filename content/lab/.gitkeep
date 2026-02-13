@@ -1,0 +1,20 @@
+# Lab Notes
+
+This directory will contain R&D blog posts about:
+- Agent architecture experiments
+- Crypto infrastructure notes
+- Performance benchmarks
+- Trading system designs
+- Technical research
+
+## Example post structure:
+
+```markdown
+---
+title: "Post Title"
+date: 2026-02-13T00:00:00-00:00
+draft: false
+---
+
+Your content here...
+```
